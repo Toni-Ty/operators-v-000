@@ -22,7 +22,7 @@ end
 		end
 end
 		def unsafe?(speed)
-			speed < 40 || speed > 60 ? "dangerous" : "safe" 
+			speed < 40 || speed > 60 ? "dangerous" : "safe"
 		end
 unsafe?(100)
 
@@ -34,35 +34,9 @@ safe?(80)
 
 
 def baby
-baby = 8		
-baby < 2 ? "baby" : "not a baby"  
+baby = 8
+baby < 2 ? "baby" : "not a baby"
 
 end
 
 baby
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
